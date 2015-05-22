@@ -142,7 +142,6 @@ func (self *Ldap) Bind(who, cred string) error {
 		return nil
 	}
 
-	self.conn = nil
 	return errors.New(fmt.Sprintf("LDAP::Bind() error (%d) : %s", rv, ErrorToString(rv)))
 }
 
