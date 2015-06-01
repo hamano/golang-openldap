@@ -1,8 +1,10 @@
 OpenLDAP
 ====
 
-this is Openldap binding in GO language. I don't work any more with golang, so, please fork this project.
-
+This is OpenLDAP client library binding for Go language.
+This code come from from
+[mqu's repository](https://github.com/mqu/openldap), but it is no
+longer maintained. I'm going to continue to maintain the code.
 
 Installation :
 -----
