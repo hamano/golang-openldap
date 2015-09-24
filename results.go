@@ -41,9 +41,6 @@ char* _berval_get_value(struct berval **ber, int i){
 }
 
 */
-// #cgo CFLAGS: -DLDAP_DEPRECATED=1
-// #cgo linux CFLAGS: -DLINUX=1
-// #cgo LDFLAGS: -lldap -llber
 import "C"
 
 import (

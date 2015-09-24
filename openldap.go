@@ -44,7 +44,7 @@ static inline LDAPControl** to_ldapctrlptr(const void* s) {
 	return (LDAPControl**) s;
 }
 */
-// #cgo CFLAGS: -DLDAP_DEPRECATED=1
+// #cgo CFLAGS: -DLDAP_DEPRECATED=1 -DLDAP_THREAD_SAFE=1
 // #cgo linux CFLAGS: -DLINUX=1
 // #cgo LDFLAGS: -lldap -llber
 import "C"

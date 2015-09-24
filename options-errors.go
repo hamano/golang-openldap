@@ -33,9 +33,6 @@ package openldap
 static inline char* to_charptr(const void* s) { return (char*)s; }
 
 */
-// #cgo CFLAGS: -DLDAP_DEPRECATED=1
-// #cgo linux CFLAGS: -DLINUX=1
-// #cgo LDFLAGS: -lldap -llber
 import "C"
 
 import (

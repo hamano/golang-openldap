@@ -31,9 +31,6 @@ package openldap
 # include <ldap.h>
 
 */
-// #cgo CFLAGS: -DLDAP_DEPRECATED=1
-// #cgo linux CFLAGS: -DLINUX=1
-// #cgo LDFLAGS: -lldap -llber
 import "C"
 
 type Ldap struct {
