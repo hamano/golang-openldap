@@ -1,6 +1,8 @@
 OpenLDAP
 ====
 
+[![Build Status](https://travis-ci.org/hamano/golang-openldap.svg?branch=master)](https://travis-ci.org/hamano/golang-openldap)
+
 This is OpenLDAP client library binding for Go language.
 This code come from from
 [mqu's repository](https://github.com/mqu/openldap), but it is no
