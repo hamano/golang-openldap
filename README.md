@@ -4,9 +4,7 @@ OpenLDAP
 [![Build Status](https://travis-ci.org/hamano/golang-openldap.svg?branch=master)](https://travis-ci.org/hamano/golang-openldap)
 
 This is OpenLDAP client library binding for Go language.
-This code come from from
-[mqu's repository](https://github.com/mqu/openldap), but it is no
-longer maintained. I'm going to continue to maintain the code.
+I'm going to abandon the repository, because I found a cool pure golang LDAP library: [go-ldap](https://github.com/go-ldap/ldap)
 
 Installation :
 -----
